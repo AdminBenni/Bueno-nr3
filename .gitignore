@@ -1,3 +1,6 @@
 
 *.xml
 *.json
+.idea
+*.scss
+res/style/prepros-6.config
