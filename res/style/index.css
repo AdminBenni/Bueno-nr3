@@ -1,2 +1,65 @@
-div {
-  float: right; }
+/*@font-face {
+    font-family: open;
+    src: @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+}*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+html {
+  height: 100%; }
+  html body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+    html body .site {
+      font-family: "Open Sans";
+      height: 100%;
+      width: 100%; }
+      html body .site .nav {
+        position: absolute;
+        z-index: 101;
+        top: 0px;
+        width: 100%;
+        height: 15%;
+        background-color: #454C55;
+        -webkit-box-shadow: 0px 0px 10px black;
+        box-shadow: 0px 0px 10px black; }
+        html body .site .nav .logo {
+          height: 100%;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex; }
+          html body .site .nav .logo .name-wrapper {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-flow: column;
+            -ms-flex-flow: column;
+            flex-flow: column;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center; }
+            html body .site .nav .logo .name-wrapper h1 {
+              margin: 0; }
+      html body .site .content-wrapper {
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        height: 85%;
+        width: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
+        html body .site .content-wrapper .main-content {
+          height: 100%;
+          width: 75%;
+          background-color: azure; }
+        html body .site .content-wrapper .feed {
+          width: 25%;
+          height: 100%;
+          background-color: #4F5762; }
